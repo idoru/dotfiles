@@ -1,0 +1,15 @@
+[user]
+	name = Sam Coward
+	email = idoru42@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	lol = log --oneline --decorate --graph
+	lola = log --oneline --decorate --graph --all
