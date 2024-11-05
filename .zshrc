@@ -116,9 +116,15 @@ export EDITOR=nvim
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias e='nvim'
+alias n='nvim'
 alias k='kubectl'
 alias rn='ranger'
 
+# For fiddling with QMK keyboard
+alias km='nvim ~/workspace/qmk_firmware/keyboards/boardsource/unicorne/keymaps/idoru/keymap.json'
+alias kmup='pushd ~/workspace/qmk_firmware ; (qmk compile && qmk flash) ; popd'
+alias kmpush='pushd ~/workspace/qmk_firmware ; (git add -p ; git commit -ev && git push origin HEAD) ; popd'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
