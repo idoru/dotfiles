@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -119,8 +119,6 @@ export EDITOR=nvim
 alias k='kubectl'
 alias rn='ranger'
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -148,3 +146,4 @@ export PATH="$PATH:/Users/sam/.cache/lm-studio/bin"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 alias config='/usr/bin/git --git-dir=/Users/sam/.cfg/ --work-tree=/Users/sam'
+eval "$(starship init zsh)"
