@@ -79,7 +79,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  fasd
+  zoxide
   poetry
   asdf
   1password
