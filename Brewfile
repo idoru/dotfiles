@@ -134,6 +134,8 @@ brew "libmagic"
 brew "libxslt"
 # Fast and simple video downloader
 brew "lux"
+# Mac App Store command-line interface
+brew "mas"
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -269,6 +271,22 @@ cask "ngrok"
 cask "rar"
 # System monitor for the menu bar
 cask "stats"
+mas "1Password for Safari", id: 1569813296
+mas "Developer", id: 640199958
+mas "Diffusers", id: 1666309574
+mas "field kit", id: 1612653346
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "OP-Z", id: 1098190457
+mas "OP1 Manager", id: 1521159543
+mas "Pages", id: 409201541
+mas "RK006 Manager", id: 1558573383
+mas "TestFlight", id: 899247664
+mas "Texifier", id: 458866234
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
 vscode "continue.continue"
 vscode "eamodio.gitlens"
 vscode "github.copilot"
