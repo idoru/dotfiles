@@ -62,13 +62,13 @@ outer.top =        0
 outer.right =      0
 
 [workspace-to-monitor-force-assignment]
-A = 'built-in'  # (A)I
+A = ['ROG PG279Q', 'built-in'] # (A)I
 C = ['ROG PG279Q', 'built-in'] # (vs)Code / (C)ursor
 X = ['ROG PG279Q', 'built-in'] # (X)Code
 E = ['ROG PG279Q', 'built-in'] # (E)xecute (terminals)
 M = ['built-in'] # (M)ixing
-O = ['HP Z24n G2', 'built-in'] # (O)BS
 Q = ['built-in'] # (Q) Obsidian/Thinking
+O = ['HP Z24n G2', 'built-in'] # (O)BS
 S = ['HP Z24n G2', 'built-in'] # (S)ocial
 W = ['HP Z24n G2', 'built-in'] # (W)eb
 Z = ['ROG PG279Q','built-in'] # (Z)otero
